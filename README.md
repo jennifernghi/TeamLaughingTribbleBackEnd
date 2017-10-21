@@ -1,7 +1,7 @@
 # TeamLaughingTribbleBackEnd <br />
 Backend Django project for ParkHere CS160 SJSU
 <br />
-# i created different branch for each of us, work on your branch only to avoid bugs, pull request to master when you are ready
+# i created different branches for each of us, work on your branch only to avoid bugs, pull request to master when you are ready
 <br />
 # Online - Pythonanywhere access <br />
    username: laughingtribble@gmail.com <br />
