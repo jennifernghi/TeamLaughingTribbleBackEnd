@@ -34,7 +34,7 @@ In terminal:
 6. cd to TeamLaughingTribbleBackEnd/
       pip install -r requirements.txt -> this will install all installed packages I have so far for this project.
       
-      # IMPORTANT: if you need to install something new, please do : pip freeze > requirements.txt. 
+      # IMPORTANT: if you need to install something new, please do : pip freeze > requirements.txt. <br />
     
 7. create mysql database parkhere 
     In TeamLaughingTribbleBackEnd/ParkHereBackend/settings.py, specify your localhost database information:
@@ -52,9 +52,9 @@ In terminal:
 }
 
 
-NOTICE on python anywhere host, we will use following configuration
+NOTICE on python anywhere host, we will use following configuration:
 
-DATABASES = {
+```DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'laughingtribble$parkhere',
@@ -63,12 +63,12 @@ DATABASES = {
         'HOST': 'laughingtribble.mysql.pythonanywhere-services.com',
         'PORT': '3306'
     }
-}
+}```
 
 8. cd to the folder contain manage.py. 
-    python3 manage.py makemigrations
-    python3 manage.py migrate
+   ```python3 manage.py makemigrations
+    python3 manage.py migrate```
     
 9. Runserver
-    python3 manage.py runserver
+    ```python3 manage.py runserver```
     
