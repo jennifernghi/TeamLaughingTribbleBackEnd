@@ -25,7 +25,8 @@ SECRET_KEY = 'oa4nbv)#uk((9up28=fei*!d&4&6mzp00+*6b5nqhe7a7#4c!%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['laughingtribble.pythonanywhere.com']
+ALLOWED_HOSTS = ['laughingtribble.pythonanywhere.com',
+                 '127.0.0.1']
 
 
 # Application definition
