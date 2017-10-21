@@ -53,6 +53,7 @@ In terminal:
 
 
 NOTICE on python anywhere host, we will use following configuration
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
