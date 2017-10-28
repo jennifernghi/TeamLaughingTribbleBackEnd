@@ -1,5 +1,6 @@
 {
   "projects": {
-    "parkherefirebasebackend": "parkherefirebasebackend-94efb"
+    "parkherefirebasebackend": "parkherefirebasebackend-94efb",
+    "default": "parkherefirebasebackend-94efb"
   }
 }
